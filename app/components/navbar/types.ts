@@ -4,7 +4,7 @@ export interface ILink {
 }
 
 export const navLinks: ILink[] = [
-  { title: "Sobre mi", href: "#about" },
-  { title: "Contacto", href: "#contact" },
-  { title: "Recorrido", href: "#tour" },
+  { title: "About me", href: "#about" },
+  { title: "Contact", href: "#contact" },
+  { title: "Projects", href: "#projects" },
 ];
