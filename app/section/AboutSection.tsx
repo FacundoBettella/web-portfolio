@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useTransition } from "react";
 import Image from "next/image";
-import TabButton from "./tab/TabButton";
+import TabButton from "../components/tab/TabButton";
 
 const TAB_DATA = [
   {
@@ -35,7 +35,7 @@ const TAB_DATA = [
 
 export const AboutSection = () => {
   const [tab, setTab] = useState<string>("skills");
-  const [isPending, startTransition] = useTransition();
+  const [_, startTransition] = useTransition();
 
   const handleTabChange = (id: string) => {
     startTransition(() => {
@@ -55,11 +55,12 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base lg:text-lg">
-            I am a developer with 3 years of experience in frontend and backend.
-            I maintain a constant focus on learning and enjoy tackling new
-            challenges; I am mentally restless. My background as a psychologist
-            provides me with useful tools for better communication with my team
-            and business areas.
+            I am a software developer with 3 years of experience in frontend and
+            backend with more focus on frontend. I am mentally restless and I am
+            always incorporating useful knowledge in my work. My training as a
+            psychologist provides me with useful tools for better communication
+            with my team and business areas. I enjoy reading, playing soccer and
+            playing guitar.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

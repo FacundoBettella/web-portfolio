@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import DownloadButton from "../components/button/DownloadButton";
 
 const HeroSection = () => {
   return (
@@ -28,11 +29,7 @@ const HeroSection = () => {
                 Let's talk
               </button>
             </Link>
-            <button className="px-1 py-1 mr-6 w-full sm:w-fit rounded  bg-gradient-to-br from-customGreen via-customTeal to-customLightGreen hover:bg-slate-800 text-white mt-4">
-              <span className="px-6 block bg-[#121212] hover:bg-customGrey rounded">
-                Download CV
-              </span>
-            </button>
+            <DownloadButton file="../../files/CV-BettellaFacundo-EN.pdf" />
           </div>
         </div>
 
