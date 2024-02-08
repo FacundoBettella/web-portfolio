@@ -16,14 +16,7 @@ const HeroSection = () => {
             </span>
             <br />
             <TypeAnimation
-              sequence={[
-                "Facu",
-                2000,
-                "frontend developer",
-                2000,
-                "backend developer",
-                2000,
-              ]}
+              sequence={["Facu", 2000, "web developer", 2000]}
               wrapper="span"
               speed={5}
               repeat={Infinity}
@@ -31,12 +24,12 @@ const HeroSection = () => {
           </h1>
           <div>
             <Link href="#contact">
-              <button className="px-7 py-1 mr-6 w-full sm:w-fit rounded bg-gradient-to-br from-customGreen via-customTeal to-customLightGreen hover:bg-slate-200 text-white font-bold">
+              <button className="px-7 py-1 mr-6 w-full sm:w-fit rounded bg-gradient-to-br from-customGreen via-customTeal to-customLightGreen hover:bg-slate-200 text-white font-bold hover:shadow-1">
                 Let's talk
               </button>
             </Link>
             <button className="px-1 py-1 mr-6 w-full sm:w-fit rounded  bg-gradient-to-br from-customGreen via-customTeal to-customLightGreen hover:bg-slate-800 text-white mt-4">
-              <span className="px-6 block bg-[#121212] hover:bg-[#494b4b] rounded">
+              <span className="px-6 block bg-[#121212] hover:bg-customGrey rounded">
                 Download CV
               </span>
             </button>

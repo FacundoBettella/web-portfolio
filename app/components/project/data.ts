@@ -20,20 +20,20 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "Microfrontend with module federation",
+    description:
+      "The project employs a microfrontend architecture, leveraging the power of pure JavaScript and Module Federation",
+    imageUrl: "/projects/module-federation.jpg",
+    gitUrl: `${GITHUB_PATH}microfrontend-module-fedaration`,
+  },
+  {
+    id: 4,
     title: "Memory Game",
     description:
       "This project is a memory game where a series of cards is displayed face down, and the player must click on them to find pairs of cards that have the same value.",
     imageUrl: GENERIC_IMG_PATH,
     tag: ["All", "Web", "React", "Typescript", "Bootstrap"],
     gitUrl: `${GITHUB_PATH}memory-game`,
-  },
-  {
-    id: 4,
-    title: "Microfrontend with module federation",
-    description:
-      "The project employs a microfrontend architecture, leveraging the power of pure JavaScript and Module Federation",
-    imageUrl: GENERIC_IMG_PATH,
-    gitUrl: `${GITHUB_PATH}microfrontend-module-fedaration`,
   },
   {
     id: 5,

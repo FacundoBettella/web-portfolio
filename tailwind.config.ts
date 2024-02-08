@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        customGrey: "#494b4b",
         customGreen: "#0e5135",
         customTeal: "#0d9263",
         customLightGreen: "#4aba91",
+      },
+      boxShadow: {
+        "1": "-8px 8px 0 #494b4b;",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
