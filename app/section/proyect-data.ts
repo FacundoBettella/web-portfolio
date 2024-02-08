@@ -7,7 +7,7 @@ const projectsData = [
     title: "Personal responsive web portfolio",
     description:
       "This portfolio was made with next, typescript, tailwind and three js.",
-    imageUrl: GENERIC_IMG_PATH,
+    imageUrl: "/projects/web-portfolio.png",
     gitUrl: `${GITHUB_PATH}web-portfolio`,
   },
   {

@@ -2,36 +2,7 @@
 import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "../components/tab/TabButton";
-
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Jest</li>
-        <li>Typescript</li>
-        <li>PostgreSQL</li>
-        <li>Redis</li>
-        <li>Docker</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Henry - Fullstack Immersive Bootcamp</li>
-        <li>Universidad Católica de Salta, Argentina</li>
-      </ul>
-    ),
-  },
-];
+import TAB_DATA from "./about-data";
 
 export const AboutSection = () => {
   const [tab, setTab] = useState<string>("skills");
@@ -46,12 +17,15 @@ export const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          src="/images/about-img.jpg"
-          alt="about"
-          width={400}
-          height={400}
-        />
+        <div className="rounded-full bg-customGrey w-[400px] h-[400px] relative">
+          <Image
+            src="/images/green-fire.gif"
+            alt="about"
+            width={350}
+            height={350}
+            className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          />
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base lg:text-lg">
