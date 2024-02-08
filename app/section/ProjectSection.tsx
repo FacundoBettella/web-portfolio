@@ -15,7 +15,14 @@ const ProjectSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Some projects
+        Some public projects. Check my{" "}
+        <a
+          target="_blank"
+          className="hover:border-b-2"
+          href="https://github.com/FacundoBettella"
+        >
+          GitHub
+        </a>
       </h2>
 
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
