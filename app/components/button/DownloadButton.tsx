@@ -1,8 +1,8 @@
 import React, { FC, MouseEventHandler } from "react";
 
-const DownloadButton: FC<{ file: string }> = ({ file }) => {
+const DownloadButton: FC = () => {
   const handleClick: MouseEventHandler<HTMLButtonElement> = () => {
-    const pdfUrl = file;
+    const pdfUrl = "../../files/CV-BettellaFacundo-EN.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "BettellaFacundo-CV-EN.pdf";

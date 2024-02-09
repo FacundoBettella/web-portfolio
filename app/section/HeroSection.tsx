@@ -29,7 +29,7 @@ const HeroSection = () => {
                 Let's talk
               </button>
             </Link>
-            <DownloadButton file="../../files/CV-BettellaFacundo-EN.pdf" />
+            <DownloadButton />
           </div>
         </div>
 

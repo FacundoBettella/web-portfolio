@@ -17,12 +17,12 @@ export const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="rounded-full bg-customGrey w-[400px] h-[400px] relative">
+        <div className="rounded-full bg-customGrey w-[350px] h-[350px] relative">
           <Image
             src="/images/green-fire.gif"
             alt="about"
-            width={350}
-            height={350}
+            width={300}
+            height={300}
             className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           />
         </div>
