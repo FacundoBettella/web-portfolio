@@ -29,8 +29,8 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base lg:text-lg">
-            I am a software developer with 3 years of experience in frontend and
-            backend with more focus on frontend. I am mentally restless and I am
+            I am a software developer with 5 years of experience in frontend and
+            backend. I am mentally restless and I am
             always incorporating useful knowledge in my work. My training as a
             psychologist provides me with useful tools for better communication
             with my team and business areas. I enjoy reading and playing guitar.
